@@ -21,4 +21,18 @@ public class Accounts {
 
 		scanner.close();
 	}
+
+	public long getAccount_number(String email) {
+
+		return 0;
+	}
+
+	public void generate_account_number() {
+
+	}
+
+	private boolean account_exists() {
+
+		return false;
+	}
 }
