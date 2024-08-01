@@ -20,6 +20,7 @@ public class Accounts {
 		String security_pin = scanner.nextLine();
 
 		scanner.close();
+		return 0;
 	}
 
 	public long getAccount_number(String email) {
