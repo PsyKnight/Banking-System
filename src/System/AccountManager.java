@@ -33,4 +33,10 @@ public class AccountManager {
 		System.err.println("Enter Security Pin: ");
 		String security_pin = scanner.nextLine();
 	}
+
+	public void getBalance(long account_number) {
+		scanner.nextLine();
+		System.err.println("Enter Security Pin: ");
+		String security_pin = scanner.nextLine();
+	}
 }
