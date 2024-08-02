@@ -1,9 +1,14 @@
 package System;
 
+import java.sql.Connection;
 import java.util.Scanner;
 
 public class AccountManager {
 	private Scanner scanner;
+	
+	public AccountManager(Connection connection, Scanner scanner) {
+		
+	}
 
 	public void credit_money(Long account_number) {
 		scanner.nextLine();

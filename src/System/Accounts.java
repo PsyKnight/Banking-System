@@ -1,9 +1,13 @@
 package System;
 
+import java.sql.Connection;
 import java.util.Scanner;
 
 public class Accounts {
 	private Scanner scanner;
+	public Accounts(Connection connection, Scanner scanner) {
+		
+	}
 
 	public long open_account(String email) {
 		scanner.nextLine();

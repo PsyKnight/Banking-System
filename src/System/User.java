@@ -1,10 +1,14 @@
 package System;
 
+import java.sql.Connection;
 import java.util.Scanner;
 
 public class User {
 
 	private Scanner scanner;
+	public User(Connection connection, Scanner scanner) {
+		
+	}
 
 	public void register() {
 		scanner.nextLine();
